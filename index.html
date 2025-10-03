@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Bar - Cafetería Florista</title>
+    <link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Importante para responsive -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar Bootstrap -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-white fw-bold" href="#home">Florista</a>
+        <button
+          class="navbar-toggler bg-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-3">
+            <li class="nav-item">
+              <a href="#home" class="nav-link text-white scroll-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#quienes" class="nav-link text-white scroll-link"
+                >¿Quiénes somos?</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="carta.html" class="nav-link text-white">Carta</a>
+            </li>
+            <li class="nav-item">
+              <a href="#servicios" class="nav-link text-white scroll-link"
+                >Servicios</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#eventos" class="nav-link text-white scroll-link"
+                >Eventos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#ubicacion" class="nav-link text-white scroll-link"
+                >Ubicación</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+      <mi-banner id="home"></mi-banner>
+
+    <!-- ¿Quiénes somos? -->
+    <section id="quienes">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-7 text-start">
+            <h2>🌿 ¿Quiénes somos?</h2>
+            <p>
+              En <strong>Cafetería-Bar Florista</strong> creemos que cada visita
+              debe sentirse como un respiro entre el ajetreo del día. Somos un
+              espacio pequeño y acogedor, pensado para disfrutar despacio: desde
+              un café de especialidad por la mañana hasta una comida colombiana
+              llena de sabor y tradición al mediodía.
+            </p>
+
+            <p>
+              Nuestra terraza es el lugar perfecto para relajarse bajo el sol,
+              mientras que en el interior encontrarás un
+              <em>rincón de libros</em> para leer acompañado de tu bebida
+              favorita. Queremos ser más que una cafetería: un refugio tranquilo
+              donde la buena gastronomía, el ambiente cálido y la atención
+              cercana hacen que cada cliente se sienta en casa.
+            </p>
+
+            <p>
+              Ya sea para un desayuno completo, una pausa de la rutina, o para
+              compartir charlas largas entre amigos, en
+              <strong>Florista</strong> siempre encontrarás un rincón que se
+              adapte a ti. 🌸✨
+            </p>
+          </div>
+          <div class="col-md-5 text-center">
+            <img
+              src="./Bar-Cafeteria-Florista-21-Untitled-jpg.jpg"
+              class="img-fluid rounded shadow-sm w-75"
+              alt="Cafetería Florista - ambiente cálido"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Carta -->
+    <section id="carta">
+      <div class="container text-center">
+        <h2>☕ Nuestra Carta</h2>
+        <p>
+          Descubre el sabor de nuestros <strong>cafés de especialidad</strong>,
+          desayunos completos para empezar el día con energía y lo mejor de la
+          <em>comida colombiana casera</em>, preparada con dedicación y
+          tradición. Una propuesta pensada para disfrutar en cada momento: desde
+          un café rápido hasta una comida tranquila en nuestra terraza.
+        </p>
+        <a href="./carta.html" class="btn-carta">Ver Carta Completa</a>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios">
+      <div class="container text-center">
+        <h3 class="mb-5">Servicios</h3>
+        <div class="row justify-content-center">
+          <div class="col-6 col-md-4 col-lg-2 mb-4">
+            <i class="fa-solid fa-sun fa-2x mb-2"></i>
+            <p>Terraza climatizada</p>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 mb-4">
+            <i class="fa-solid fa-book fa-2x mb-2"></i>
+            <p>Zona de libros</p>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 mb-4">
+            <i class="fa-solid fa-mug-hot fa-2x mb-2"></i>
+            <p>Servicio para llevar</p>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 mb-4">
+            <i class="fa-solid fa-wheelchair fa-2x mb-2"></i>
+            <p>Acceso habilitado para personas con movilidad reducida</p>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 mb-4">
+            <i class="fa-solid fa-credit-card fa-2x mb-2"></i>
+            <p>Pago efectivo y tarjeta</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <!-- Eventos -->
+<!-- Eventos -->
+<section id="eventos">
+  <div class="container py-5">
+    <h3 class="text-center mb-4">🎉 Eventos</h3>
+    <div class="row g-4">
+      
+      <!-- Tarjeta evento 1 -->
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm text-center">
+          <img src="./ChatGPT_Image_25_sept_2025__23_51_49-removebg-preview.png" class="card-img-top" alt="Evento 1 en Cafetería Florista">
+          <div class="card-body">
+            <h5 class="card-title">Evento Especial 1</h5>
+            <p class="card-text">
+              Ven a disfrutar de música en vivo, ambiente acogedor y promociones exclusivas en bebidas.  
+            </p>
+            <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#evento1Modal">
+              Ver más
+            </button>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <!-- Tarjeta evento 2 -->
+      <div class="col-md-6">
+        <div class="card h-100 shadow-sm text-center">
+          <img src="evento2.jpg" class="card-img-top" alt="Evento 2 en Cafetería Florista">
+          <div class="card-body">
+            <h5 class="card-title">Evento Especial 2</h5>
+            <p class="card-text">
+              Celebra con nosotros nuestra noche temática: buena comida, decoración única y sorpresas.  
+            </p>
+            <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#evento2Modal">
+              Ver más
+            </button>
+          </div>
+        </div>
+      </div>
+
+     
+
+    </div>
+  </div>
+</section>
+
+<!-- Modal evento 1 -->
+      <div class="modal fade" id="evento1Modal" tabindex="-1" aria-labelledby="evento1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="evento1ModalLabel">Evento Especial 1</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body text-center">
+              <img src="./ChatGPT_Image_25_sept_2025__23_51_49-removebg-preview.png" class="img-fluid mb-3 rounded" alt="Evento 1">
+              <p>
+                🎶 Vive una noche inolvidable con música en directo, promociones exclusivas y un ambiente único en Florista.  
+                <br><br>
+                📅 <strong>Fecha:</strong> Viernes 15 de Octubre  
+                <br>
+                ⏰ <strong>Hora:</strong> 20:00 - 23:00  
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <!-- Modal evento 2 -->
+      <div class="modal fade" id="evento2Modal" tabindex="-1" aria-labelledby="evento2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="evento2ModalLabel">Evento Especial 2</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body text-center">
+              <img src="evento2.jpg" class="img-fluid mb-3 rounded" alt="Evento 2">
+              <p>
+                🎭 Una noche temática única con decoración especial, comida deliciosa y sorpresas.  
+                <br><br>
+                📅 <strong>Fecha:</strong> Sábado 22 de Octubre  
+                <br>
+                ⏰ <strong>Hora:</strong> 21:00 - 01:00  
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Ubicación -->
+<section id="ubicacion">
+  <div class="container py-5">
+    <h3 class="text-center mb-4">📍 Ubicación</h3>
+    <div class="row align-items-center">
+      
+      <!-- Columna izquierda: mapa -->
+      <div class="col-md-7 mb-4 mb-md-0">
+        <div class="map-responsive">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.3794783!2d-0.376288284511427!3d39.469907879486404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f2a1234567%3A0xabcdef1234567890!2sCafeter%C3%ADa%20Florista!5e0!3m2!1ses!2ses!4v1700000000000" 
+            width="100%" 
+            height="400" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Columna derecha: tarjeta de dirección y horario -->
+      <div class="col-md-5">
+        <!-- Tarjeta de direcciónn con id para poder modificar con css -->
+        <div class="card shadow-lg border-0" id="direccion-card">
+          <div class="card-body text-center text-md-start">
+            <h4 class="mb-3">📌 Dirección</h4>
+            <p><strong>Cafetería-Bar Florista</strong></p>
+            <p>Calle de las Flores 21, Benimaclet, Valencia</p>
+
+            <h4 class="mt-4 mb-3">🕒 Horario</h4>
+            <ul class="list-unstyled horario">
+              <li><strong>Lunes - Viernes:</strong> 08:00 - 22:00</li>
+              <li><strong>Sábado:</strong> 09:00 - 23:00</li>
+              <li><strong>Domingo:</strong> 09:00 - 20:00</li>
+            </ul>
+            <p class="mt-3 mb-0">¡Te esperamos para que disfrutes de un café en un ambiente acogedor! ☕🌿</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- Footer -->
+    <mi-pie></mi-pie>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./mis-etiquetas.js"></script>
+    <script>
+      // Scroll suave solo si es en la misma página
+      document.querySelectorAll(".scroll-link").forEach((link) => {
+        link.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({ behavior: "smooth" });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
